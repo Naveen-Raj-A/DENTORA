@@ -1,0 +1,12 @@
+﻿<svg xmlns='http://www.w3.org/2000/svg' width='1200' height='700' viewBox='0 0 1200 700'>
+<rect width='1200' height='700' fill='#F8FAFC'/>
+<rect x='40' y='40' width='1120' height='620' rx='28' fill='#fff' stroke='#E2E8F0'/>
+<rect x='80' y='120' width='1040' height='420' rx='20' fill='#EEF5FB'/>
+<line x1='600' y1='120' x2='600' y2='540' stroke='#0B3D91' stroke-width='6' opacity='.55'/>
+<rect x='120' y='170' width='440' height='320' rx='16' fill='#E2EEF6'/>
+<rect x='640' y='170' width='440' height='320' rx='16' fill='#DCEBFA'/>
+<text x='140' y='520' font-family='DM Sans,Arial,sans-serif' font-size='22' font-weight='700' fill='#0B3D91'>BEFORE (demo)</text>
+<text x='660' y='520' font-family='DM Sans,Arial,sans-serif' font-size='22' font-weight='700' fill='#14B8A6'>AFTER (demo)</text>
+<text x='80' y='610' font-family='DM Sans,Arial,sans-serif' font-size='20' fill='#64748B'>Fictional demo transformation 3 — not a real patient result. Original illustrative visual.</text>
+<text x='80' y='96' font-family='Playfair Display,Georgia,serif' font-size='34' font-weight='700' fill='#0F172A'>Smile Transformation (Demo)</text>
+</svg>

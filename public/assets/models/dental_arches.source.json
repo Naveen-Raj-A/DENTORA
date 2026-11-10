@@ -1,0 +1,14 @@
+﻿{
+  "asset": "dental_arches.glb",
+  "path": "/assets/models/dental_arches.glb",
+  "source_title": "Dental arches",
+  "source_author": "Lydran96 (Sketchfab)",
+  "source_url": "https://sketchfab.com/3d-models/dental-arches-a17fda74c85344709624e9e39a6634b6",
+  "distribution_source": "foxinari/guet-dentist-models (Hugging Face)",
+  "distribution_url": "https://huggingface.co/foxinari/guet-dentist-models",
+  "license": "CC BY 4.0",
+  "license_url": "http://creativecommons.org/licenses/by/4.0/",
+  "attribution": "This work is based on \"Dental arches\" (https://sketchfab.com/3d-models/dental-arches-a17fda74c85344709624e9e39a6634b6) by Lydran96 (https://sketchfab.com/Lydran96) licensed under CC-BY-4.0 (http://creativecommons.org/licenses/by/4.0/).",
+  "notes": "Downloaded for DENTORA homepage hero visualization. Verify upstream license/terms before redistribution beyond this project context. Runtime PBR/material presentation adjusted in-app; no claim of clinical accuracy.",
+  "downloaded_utc": "2026-11-09"
+}
