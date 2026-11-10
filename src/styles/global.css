@@ -80,6 +80,54 @@ main { padding-top: var(--nav-height); }
   }
 }
 
+/* Patient Transformations: strict 2x2 desktop grid */
+.transformation-grid {
+  display: grid !important;
+  grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+  grid-template-rows: repeat(2, auto);
+  gap: 24px;
+  width: 100%;
+  max-width: 1100px;
+  margin-inline: auto;
+  align-items: stretch;
+}
+.transformation-grid > * {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  height: 100%;
+  box-sizing: border-box;
+  grid-column: auto !important;
+  grid-row: auto !important;
+}
+.transformation-grid .card-premium,
+.transformation-grid .transformation-card {
+  width: 100% !important;
+  min-width: 0 !important;
+  max-width: none !important;
+  height: 100%;
+}
+@media (min-width: 1024px) {
+  .transformation-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    grid-template-rows: repeat(2, auto);
+  }
+}
+@media (min-width: 640px) and (max-width: 1023px) {
+  .transformation-grid {
+    grid-template-columns: repeat(2, minmax(0, 1fr)) !important;
+    gap: 20px;
+    max-width: 100%;
+  }
+}
+@media (max-width: 639px) {
+  .transformation-grid {
+    grid-template-columns: 1fr !important;
+    grid-template-rows: auto;
+    gap: 16px;
+  }
+}
+
 @media (prefers-reduced-motion: reduce) {
   * { animation-duration: 0.01ms !important; animation-iteration-count: 1 !important; transition-duration: 0.01ms !important; scroll-behavior: auto !important; }
 }

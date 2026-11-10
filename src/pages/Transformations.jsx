@@ -8,9 +8,9 @@ export const Transformations = () => {
     <section className="section-pad" style={{ background: "var(--ice-white)" }}>
       <div className="container-narrow">
         <SectionHeading eyebrow="Patient Stories" title="Patient Transformations" subtitle="Illustrative before-and-after comparisons. All cases shown are fictional demo content — not real patient results." align="center" />
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "1.15rem" }}>
+        <div className="transformation-grid">
           {items.map((t, i) => (
-            <article key={t.id || i} className="card-premium" style={{ overflow: "hidden" }}>
+            <article key={t.id || i} className="card-premium transformation-card" style={{ overflow: "hidden", width: "100%", minWidth: 0, height: "100%", boxSizing: "border-box" }}>
               <div style={{ position: "relative" }}>
                 <img src={t.image} alt={`${t.category} demo transformation`} loading="lazy" onError={imgOnError} style={{ width: "100%", height: 210, objectFit: "cover", display: "block" }} />
                 <span style={{ position: "absolute", left: 10, top: 10, fontSize: "0.68rem", fontWeight: 800, color: "#fff", background: "rgba(188,70,57,.95)", padding: "0.2rem 0.5rem", borderRadius: 999 }}>DEMO</span>

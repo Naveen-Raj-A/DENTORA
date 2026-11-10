@@ -38,9 +38,9 @@ export function TransformationPreview() {
     <section className="section-pad" style={{ background: "var(--surface)" }}>
       <div className="container-narrow">
         <SectionHeading eyebrow="Patient Stories" title="Smile transformations" subtitle="Interactive before-and-after comparisons illustrating treatment goals. All examples shown are fictional demo content." align="center" />
-        <div style={{ display: "grid", gridTemplateColumns: "repeat(auto-fit, minmax(260px, 1fr))", gap: "1.15rem" }}>
+        <div className="transformation-grid">
           {items.map((t, i) => (
-            <ScrollReveal key={t.id || i} delay={i * 0.05}>
+            <ScrollReveal key={t.id || i} delay={i * 0.05} style={{ width: "100%", minWidth: 0, height: "100%" }}>
               <BeforeAfter item={t} />
             </ScrollReveal>
           ))}
